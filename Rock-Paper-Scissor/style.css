@@ -1,0 +1,46 @@
+body{
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+    background: linear-gradient(135deg,#3f52b9a2,#1562e7);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+.total{
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+}
+.total h2{
+    font-size: 3.4rem;
+    color: rgb(74, 48, 147);
+    text-shadow: #2744a5;
+
+}
+.choice{
+    margin-bottom: 30px;
+}
+.choice button{
+    font-size: 2.3rem;
+    min-width: 160px;
+    margin:0 10px;
+    cursor:pointer;
+    border-radius: 250px;
+    background-color: aqua;
+    transition: background-color 0.5s ease;
+}
+.choice button:hover{
+    background-color: #c45946;
+}
+#player,#computer{
+    font-size: 3rem;
+}
+#tie{
+    font-size: 4rem;
+    -webkit-text-stroke: black;
+}
+.green,#playerscore{
+    color:green;
+}
+.red,#computerscore{
+    color:red;
+}
